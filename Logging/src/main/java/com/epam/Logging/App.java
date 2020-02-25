@@ -14,11 +14,11 @@ public class App
         	choice=sc.nextInt();
         }
         if(choice==1) {
-        	System.out.print("Enter Principle Amount for Interest: ");
+        	logger.info("Enter Principle Amount for Interest: ");
         	double p=sc.nextDouble();
-        	System.out.print("Enter Rate Of Interest for Amount: ");
+        	logger.info("Enter Rate Of Interest for Amount: ");
         	double r=sc.nextDouble();
-        	System.out.print("Enter Time for Rate of Interest : ");
+        	logger.info("Enter Time for Rate of Interest : ");
         	double t=sc.nextDouble();
         	logger.info("Enter your type of Interest:\n1 Simple Interest\n2 Compound Interest");
         	int type=sc.nextInt();
